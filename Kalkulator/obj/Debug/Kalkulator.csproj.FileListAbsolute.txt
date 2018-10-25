@@ -19,3 +19,14 @@ C:\Users\Adam\Uczelnia\kalkulator\Kalkulator\Kalkulator\obj\Debug\Kalkulator.csp
 C:\Users\Adam\Uczelnia\kalkulator\Kalkulator\Kalkulator\obj\Debug\Kalkulator.exe
 C:\Users\Adam\Uczelnia\kalkulator\Kalkulator\Kalkulator\obj\Debug\Kalkulator.pdb
 C:\Users\Adam\Uczelnia\kalkulator\Kalkulator\Kalkulator\obj\Debug\Kalkulator.Form2.resources
+C:\Users\Adam\Documents\Uczelnia\Programowanie_zdarzeniowe\Kalkulator\Kalkulator\bin\Debug\Kalkulator.exe.config
+C:\Users\Adam\Documents\Uczelnia\Programowanie_zdarzeniowe\Kalkulator\Kalkulator\bin\Debug\Kalkulator.exe
+C:\Users\Adam\Documents\Uczelnia\Programowanie_zdarzeniowe\Kalkulator\Kalkulator\bin\Debug\Kalkulator.pdb
+C:\Users\Adam\Documents\Uczelnia\Programowanie_zdarzeniowe\Kalkulator\Kalkulator\obj\Debug\Kalkulator.csprojAssemblyReference.cache
+C:\Users\Adam\Documents\Uczelnia\Programowanie_zdarzeniowe\Kalkulator\Kalkulator\obj\Debug\Kalkulator.Form1.resources
+C:\Users\Adam\Documents\Uczelnia\Programowanie_zdarzeniowe\Kalkulator\Kalkulator\obj\Debug\Kalkulator.Form2.resources
+C:\Users\Adam\Documents\Uczelnia\Programowanie_zdarzeniowe\Kalkulator\Kalkulator\obj\Debug\Kalkulator.Properties.Resources.resources
+C:\Users\Adam\Documents\Uczelnia\Programowanie_zdarzeniowe\Kalkulator\Kalkulator\obj\Debug\Kalkulator.csproj.GenerateResource.cache
+C:\Users\Adam\Documents\Uczelnia\Programowanie_zdarzeniowe\Kalkulator\Kalkulator\obj\Debug\Kalkulator.csproj.CoreCompileInputs.cache
+C:\Users\Adam\Documents\Uczelnia\Programowanie_zdarzeniowe\Kalkulator\Kalkulator\obj\Debug\Kalkulator.exe
+C:\Users\Adam\Documents\Uczelnia\Programowanie_zdarzeniowe\Kalkulator\Kalkulator\obj\Debug\Kalkulator.pdb

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -345,6 +346,59 @@ namespace Kalkulator
             ToolTip toolTip1 = new ToolTip();
             toolTip1.ShowAlways = true;
             toolTip1.SetToolTip(textBox1, textBox1.Text);
+        }
+
+        #region Menu
+
+        private void stronaProjektuToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("http://github.com/adamkot/calculatorHomework.git");
+        }
+
+        private void zamknijToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Dispose();
+        }
+
+        #endregion
+
+        private void zapiszToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (form != null)
+            {
+                String dataToSave = form.getData();
+                if (dataToSave.Length == 0)
+                {
+                    MessageBox.Show("Error: \n Brak danych do zapisu!");
+                }
+                else
+                {
+                    SaveFileDialog saveFileDialog1 = new SaveFileDialog();
+                    saveFileDialog1.Filter = "Text file|*.txt";
+                    saveFileDialog1.Title = "Save an Text File";
+                    saveFileDialog1.ShowDialog();
+                    if (saveFileDialog1.FileName != "")
+                    {
+                        try
+                        {
+                            FileStream fileStream = (FileStream)saveFileDialog1.OpenFile();
+                            StreamWriter fileWriter = new StreamWriter(fileStream);
+                            fileWriter.WriteLine(form.getData());
+                            fileWriter.Flush();
+                            fileWriter.Close();
+                            MessageBox.Show("Sukces: \n Plik zapisany poprawnie");
+                        }
+                        catch (IOException ioe)
+                        {
+                            MessageBox.Show("Error: \n Nieudany zapis pliku!");
+                        }
+                    }
+                }
+            }
+            else
+            {
+                MessageBox.Show("Error: \n Brak danych do zapisu!");
+            }
         }
     }
 }

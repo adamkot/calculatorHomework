@@ -55,6 +55,16 @@ namespace Kalkulator
             Table.DataSource = null;
             Table.Rows.Clear();
         }
+
+        public String getData() {
+            String data = "";
+            for (int i = 0; i < this.Table.Rows.Count - 1; i++)
+            {
+                DataGridViewRow row = this.Table.Rows[i];
+                data = data + (row.Cells[1].Value.ToString()) + "\t =" + (row.Cells[3].Value.ToString()) + "\n";
+            }
+            return data;
+        }
     }
 }
 
